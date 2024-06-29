@@ -104,7 +104,7 @@ function downloadImage(url, path) {
     })
 
     res.on('end', () => {
-      console.log(`${green}Image Downloaded in \`images/sprite.png\`${reset}`);
+      console.log(`${green}Image Downloaded in \`sprite.png\`${reset}`);
       console.log();
     })
 
